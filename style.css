@@ -5,6 +5,7 @@ FIXED LAYOUT CSS
 .wrapper {
     display: flex;
     margin: 50px auto;
+    flex-flow: row wrap;
 }
 
 /**************************************
@@ -43,4 +44,14 @@ body {
     min-height: 100px;
     min-width: 160px;
     line-height: 100px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+    width: 100%;
 }
