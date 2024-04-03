@@ -6,6 +6,7 @@ FIXED LAYOUT CSS
     display: flex;
     margin: 50px auto;
     flex-flow: row wrap;
+    max-width: 900px;
 }
 
 /**************************************
@@ -64,4 +65,28 @@ body {
     .six {
         width: 50%;
     }
+}
+
+@media screen and (min-width: 900px) {
+
+    .one {
+        width: 60%;
+    }
+
+    .two,
+    .five {
+        width: 40%;
+    }
+
+    .three,
+    .four {
+        width: 30%;
+    }
+
+    .six,
+    .seven {
+        width: 50%;
+    }
+
+
 }
